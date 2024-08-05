@@ -92,11 +92,11 @@ header {
   align-items: center;
 }
 .bx.bx-right-arrow-alt {
-  font-size: 16px; /* kích thước icon */
-  line-height: 16px; /* chiều cao icon */
-  vertical-align: middle; /* căn giữa icon */
-  margin: 0 2px; /* khoảng cách giữa icon và text */
-  font-weight: 10; /* độ dày icon */
+  font-size: 16px;
+  line-height: 16px;
+  vertical-align: middle;
+  margin: 0 2px;
+  font-weight: 10;
 }
 .header-top-right {
   width: 67px;
@@ -299,7 +299,7 @@ header {
   width: 1400px;
   height: 758px;
   gap: 10px;
-  background-image: url(/image/Section_01.png);
+  background-image: url("../image/Section_01.png");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -520,7 +520,7 @@ header {
   width: 430.67px;
   height: 534px;
   gap: 23px;
-  background-image: url("/image/section_03-1.png");
+  background-image: url("../image/section_03-1.png");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -530,7 +530,7 @@ header {
   width: 430.67px;
   height: 534px;
   gap: 23px;
-  background-image: url("/image/section_03-2.png");
+  background-image: url("../image/section_03-2.png");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -540,7 +540,7 @@ header {
   width: 430.67px;
   height: 534px;
   gap: 23px;
-  background-image: url("/image/section_03-3.png");
+  background-image: url("../image/section_03-3.png");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -575,7 +575,7 @@ header {
   max-width: 1316px;
   height: auto;
   padding: 44px 0;
-  background-image: url("/image/section_05.png");
+  background-image: url("../image/section_05.png");
   background-size: cover;
   background-position: right;
   display: flex;
@@ -858,7 +858,7 @@ footer {
 
 .slider {
   position: relative;
-  width: 80%; /* Độ rộng của slider */
+  width: 80%;
   margin: auto;
   overflow: hidden;
 }
@@ -869,14 +869,14 @@ footer {
 }
 
 .slide {
-  min-width: 20%; /* Chỉ hiển thị 5 hình cùng lúc (100% / 5) */
+  min-width: 20%;
   box-sizing: border-box;
-  padding: 0 10px; /* Khoảng cách giữa các tấm hình */
+  padding: 0 10px;
 }
 
 .slide img {
   width: 100%;
-  border-radius: 10px; /* Thêm viền bo tròn cho ảnh nếu muốn */
+  border-radius: 10px;
 }
 
 .prev,
@@ -911,15 +911,15 @@ footer {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: space-between; /* Khoảng cách giữa các cột */
-  align-items: flex-start; /* Căn chỉnh các mục ở đầu */
-  gap: 20px; /* Khoảng cách giữa các div */
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
   padding: 90px 100px;
   gap: 20px;
 }
 
 .section-07-item {
-  flex: 1; /* Chiếm đều không gian trong section */
+  flex: 1;
   padding: 10px;
   text-align: center;
 }
@@ -1119,9 +1119,9 @@ footer {
   border-bottom: 1px solid rgba(221, 219, 220, 1);
 }
 .search-input {
-  width: 678px; /* Chiều rộng tùy chỉnh */
-  height: 48px; /* Chiều cao tùy chỉnh */
-  padding: 10px; /* Khoảng cách bên trong */
+  width: 678px;
+  height: 48px;
+  padding: 10px;
   background: rgba(245, 244, 244, 1);
   font-family: Maison Neue;
   font-size: 12px;
@@ -1159,10 +1159,10 @@ footer {
   flex: 1;
   margin: 10px;
   height: 374px;
-  max-width: 257px; /* Hoặc bất kỳ kích thước nào phù hợp với thiết kế của bạn */
+  max-width: 257px;
 }
 .search-category img {
-  width: 100%; /* Đảm bảo hình ảnh co giãn phù hợp */
+  width: 100%;
   height: auto;
 }
 
@@ -1176,11 +1176,11 @@ footer {
   color: rgba(76, 76, 75, 1);
 }
 .section {
-  display: none; /* Ẩn tất cả các section mặc định */
+  display: none;
 }
 
 .section.active {
-  display: block; /* Hiển thị section đang hoạt động */
+  display: block;
 }
 
 .about {
@@ -1191,7 +1191,7 @@ footer {
 .about-1 {
   width: 100%;
   height: 691px;
-  background-image: url("/image/about-1.png");
+  background-image: url("../image/about-1.png");
   background-size: cover;
   align-items: center;
   text-align: center;
@@ -1250,12 +1250,12 @@ footer {
   align-items: center;
 }
 .about-3-l {
-  flex: 1; /* Cột trái chiếm 1 phần không gian */
+  flex: 1;
 }
 .about-3-l img {
-  width: 100%; /* Hình ảnh chiếm 100% chiều rộng cột */
-  height: 733px; /* Giữ tỉ lệ của hình ảnh */
-  object-fit: cover; /* Đảm bảo hình ảnh vừa khung mà không bị biến dạng */
+  width: 100%;
+  height: 733px;
+  object-fit: cover;
 }
 .about-3-r-1 {
   width: 560px;
@@ -1289,14 +1289,14 @@ footer {
   color: rgba(0, 0, 0, 1);
 }
 .about-3-r {
-  flex: 1; /* Cột phải chiếm 1 phần không gian */
-  padding: 20px; /* Khoảng cách cho cột */
+  flex: 1;
+  padding: 20px;
 }
 
 .about-4 {
   width: 100%;
   height: 637px;
-  background-image: url("/image/about-3.png");
+  background-image: url("../image/about-3.png");
   background-size: cover;
 }
 
@@ -1308,12 +1308,12 @@ footer {
   align-items: center;
 }
 .about-5-l {
-  flex: 1; /* Cột trái chiếm 1 phần không gian */
+  flex: 1;
 }
 .about-5-l img {
-  width: 100%; /* Hình ảnh chiếm 100% chiều rộng cột */
-  height: 552px; /* Giữ tỉ lệ của hình ảnh */
-  object-fit: cover; /* Đảm bảo hình ảnh vừa khung mà không bị biến dạng */
+  width: 100%;
+  height: 552px;
+  /object-fit: cover;
 }
 .about-5-r-1 {
   width: 560px;
@@ -1348,13 +1348,13 @@ footer {
   color: rgba(0, 0, 0, 1);
 }
 .about-5-r {
-  flex: 1; /* Cột phải chiếm 1 phần không gian */
-  padding: 20px; /* Khoảng cách cho cột */
+  flex: 1;
+  padding: 20px;
 }
 .about-6 {
   width: 100%;
   height: 560px;
-  background-image: url("/image/about-5.png");
+  background-image: url("../image/about-5.png");
   background-size: cover;
 }
 
@@ -1365,12 +1365,12 @@ footer {
   align-items: center;
 }
 .about-7-l {
-  flex: 1; /* Cột trái chiếm 1 phần không gian */
+  flex: 1;
 }
 .about-7-l img {
-  width: 100%; /* Hình ảnh chiếm 100% chiều rộng cột */
-  height: 660px; /* Giữ tỉ lệ của hình ảnh */
-  object-fit: cover; /* Đảm bảo hình ảnh vừa khung mà không bị biến dạng */
+  width: 100%;
+  height: 660px;
+  object-fit: cover;
 }
 .about-7-r-1 {
   width: 560px;
@@ -1405,8 +1405,8 @@ footer {
   color: rgba(0, 0, 0, 1);
 }
 .about-7-r {
-  flex: 1; /* Cột phải chiếm 1 phần không gian */
-  padding: 20px; /* Khoảng cách cho cột */
+  flex: 1;
+  padding: 20px;
 }
 .about-8 {
   width: 100%;
@@ -1589,7 +1589,7 @@ footer {
   text-decoration: none;
 }
 .blog-3 {
-  background-image: url("/image/blog-3.png");
+  background-image: url("./image/blog-3.png");
   width: 100%;
   height: 225px;
 }
@@ -1679,7 +1679,7 @@ footer {
   height: 691px;
   padding: 70px 53px;
   gap: 10px;
-  background-image: url("/image/blog-post-1.png");
+  background-image: url("./image/blog-post-1.png");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -1786,7 +1786,7 @@ footer {
 }
 .blog-post-8-slider {
   position: relative;
-  width: 80%; /* Độ rộng của slider */
+  width: 80%;
   margin: auto;
   overflow: hidden;
 }
@@ -1797,14 +1797,14 @@ footer {
 }
 
 .blog-post-8-slide {
-  min-width: 25%; /* Chỉ hiển thị 5 hình cùng lúc (100% / 5) */
+  min-width: 25%;
   box-sizing: border-box;
-  padding: 0 10px; /* Khoảng cách giữa các tấm hình */
+  padding: 0 10px;
 }
 
 .blog-post-8-slide img {
   width: 100%;
-  border-radius: 10px; /* Thêm viền bo tròn cho ảnh nếu muốn */
+  border-radius: 10px;
 }
 
 .prev,
@@ -1976,8 +1976,8 @@ footer {
   color: rgba(0, 0, 0, 1);
 }
 .category-list-in ul img {
-  vertical-align: middle; /* Căn giữa ảnh với văn bản */
-  margin-right: 20px; /* Khoảng cách giữa ảnh và tên màu */
+  vertical-align: middle;
+  margin-right: 20px;
 }
 .category-l-in ul li ul {
   display: grid;
@@ -2016,7 +2016,7 @@ footer {
   color: rgba(76, 76, 75, 1);
 }
 .category-list-up ul li ul img {
-  vertical-align: middle; /* Căn giữa ảnh với văn bản */
+  vertical-align: middle;
   margin-right: 20px;
   margin-bottom: 20px;
 }
@@ -2746,7 +2746,6 @@ footer {
   color: rgba(38, 38, 38, 1);
 }
 
-/*------------------------------------*/
 .items-cart_container {
   position: absolute;
   top: 0;
